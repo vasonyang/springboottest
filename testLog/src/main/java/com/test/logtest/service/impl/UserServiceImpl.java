@@ -56,6 +56,7 @@ public class UserServiceImpl implements UserService {
 
   @Override
   public int insertUser(User user) {
+    logger.info("插入用户服务");
 //    JsonObject obj = new JsonObject();
 //    obj.addProperty("code", 200);
 //    obj.addProperty("result", "success");
