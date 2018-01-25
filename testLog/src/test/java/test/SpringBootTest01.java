@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
-import com.test.logtest.ApplicationLogTest;
+import com.test.ApplicationLogTest;
 import com.test.logtest.bean.User;
 import com.test.logtest.service.UserService;
 

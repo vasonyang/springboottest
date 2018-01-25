@@ -12,7 +12,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
-import com.test.logtest.ApplicationLogTest;
+import com.test.ApplicationLogTest;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes=ApplicationLogTest.class)
